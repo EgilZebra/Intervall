@@ -1,0 +1,41 @@
+.header--wrapper {
+    width: 365px;
+    border: 2px solid black;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.header--meny {
+    display: flex;
+    flex-direction: column;
+    width: 32px;
+    height: 32px;
+    gap: 2px
+}
+.menu--icon {
+    width: auto;
+    margin: 0;
+}
+.menu--icon-one {
+    height: 12px;
+}
+.menu--icon-two {
+    height: 8px;
+}
+.menu--icon-three {
+    height: 4px;
+}
+.menu--icon-four {
+    height: 2px;
+}
+
+.header--meny:hover {
+    cursor: pointer;
+}

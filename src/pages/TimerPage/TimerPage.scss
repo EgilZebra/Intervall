@@ -1,0 +1,75 @@
+.active {
+    display: hidden;
+}
+.none-active {
+    display: block;
+
+}
+.header--wrapper {
+    width: 365px;
+    border: 2px solid black;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.header--meny {
+    display: flex;
+    flex-direction: column;
+    width: 32px;
+    height: 32px;
+    gap: 2px
+}
+.menu--icon {
+    width: auto;
+    margin: 0;
+}
+.menu--icon-one {
+    height: 12px;
+}
+.menu--icon-two {
+    height: 8px;
+}
+.menu--icon-three {
+    height: 4px;
+}
+.menu--icon-four {
+    height: 2px;
+}
+
+.header--meny:hover {
+    cursor: pointer;
+}
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Righteous&display=swap');
+
+.meny--wrapper {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    top: 0;
+    text-align: center;
+    padding: 5px;
+    width: 375px;
+    height: 667px;
+    background-color: rgb(229, 229, 229);
+}
+
+.meny--text {
+    color: white;
+    font-size: 700;
+    font-family: "PT Sans", sans-serif;
+    border: 2px solid rgb(229,229,229);
+    width: auto;
+}
+.meny--text:hover {
+    cursor: pointer;
+    border: 2px dotted black;
+}

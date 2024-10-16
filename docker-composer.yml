@@ -1,0 +1,12 @@
+version: '3.9'
+
+networks:
+  sync-network:
+
+services:
+  frontend:
+    build: 
+      contex: ./Intervall-app
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173"
