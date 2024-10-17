@@ -18,6 +18,7 @@ const router = createBrowserRouter(
       <Route path='/timer' element={<TimerPage />} />
     </Route>
   )
+  , { basename: '/Intervall/'}
 )
 function App() {
   const [count, setCount] = useState(0)
